@@ -1,0 +1,24 @@
+# LLVM with personal overrides
+Language: Cpp
+BasedOnStyle: LLVM
+
+# Indention
+NamespaceIndentation: All
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ContinuationIndentWidth: 4
+AccessModifierOffset: -4
+
+BreakBeforeBraces: Allman
+
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortLambdasOnASingleLine: Inline
+Standard: Latest
+SortIncludes: Never
+ColumnLimit: 120
+PointerAlignment: Left
+SpaceBeforeCpp11BracedList: true
+AlignConsecutiveAssignments: Consecutive
+AlignArrayOfStructures: Right
+AlwaysBreakTemplateDeclarations: Yes
